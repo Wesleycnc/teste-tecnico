@@ -8,6 +8,16 @@ body{
    margin-top: 2.5rem;
 
 }
+#seta {
+    position: relative;
+    padding: 10px;
+    box-shadow: 2px -2px 0 1px #483698 inset;
+    border: solid transparent;
+    left: 250px;
+    top: 80px;
+    transform: rotate(45deg);
+    background-color: transparent;
+  }
 h1{
     font-family: 'Comfortaa', cursive;
     color: #483698;
@@ -34,12 +44,32 @@ h2{
 .in-3{
     width: 17%;
 }
+.in-4{
 
+   margin-top: 2.5rem;
+   
+
+}
+.input-group-text{
+    background: #483698 !important;
+    color: white;
+}
 .img-1{
     position: absolute;
     right: 0.063rem;
     bottom: 29%;
 }
+.img-2{
+    position: absolute;
+    right: 0.063rem;
+    bottom: 23%;
+}
+
+.a-2{
+    height: 860px !important;
+}
+
+
 
 .botao{
     margin-left: 3.75rem;
@@ -53,7 +83,7 @@ h2{
     border: none;
     bottom: 10px;
     font-weight: none;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
 }
 .container{
         position: absolute;
@@ -63,6 +93,16 @@ h2{
         width: 1145px;
         background: white;
         height: 830px;
+        box-shadow: 4px 3px 10px -3px  #282828 ;
+}
+.container-2{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 1000px;
+        background: white;
+        height: 870px;
         box-shadow: 4px 3px 10px -3px  #282828 ;
 }
 .rounded{
@@ -80,6 +120,29 @@ h2{
     background-color: #483698;
 }
 
-#alinhamento{
-    text-align: right ;
+.position-absolute{
+    right:58%;
+    color: #483698;
+    font-family: 'Comfortaa', cursive;
+    margin-top: 20px;
+    font-size: 1.1rem;
 }
+
+@media only screen and (max-width: 1800px) {
+ 
+    #seta{
+        left: 50px;
+        top: 80px;
+
+    }
+   }
+@media only screen and (max-width: 1300px) {
+    .container {
+      width: 100%;
+    }
+    #seta{
+        left: 0px;
+        top: 80px;
+
+    }
+   }
