@@ -6,6 +6,7 @@ Vue.component('button-counter', {
 
 
   new Vue({ el: '#components-proximo' })
+  
 
   new Vue({
     el: '#app',
@@ -16,7 +17,7 @@ Vue.component('button-counter', {
     },
     mounted () {
       axios
-        .get('https://api-teste-front-end-fc.herokuapp.com/cidades?estadoId=2')
+        .get('https://api-teste-front-end-fc.herokuapp.com/cidades?estado')
         .then(response => (this.info = response))
     }
   })
